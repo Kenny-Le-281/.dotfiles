@@ -1,0 +1,6 @@
+\.git
+\.github
+
+^/README.*
+^/LICENSE.*
+^/setup_script.sh
