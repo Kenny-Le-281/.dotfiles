@@ -1,9 +1,11 @@
---Remap space as leader key --
+-- luacheck: ignore vim
+-- luacheck: ignore opts
+--Remap space as leader key
 vim.keymap.set("", "<Space>", "<Nop>", opts)
 vim.g.mapleader=" "
 
 -- Normal (Command Mode) Mode --
--- Better window navigation --
+-- Better window navigation
 vim.keymap.set("n", "<C-h>", "<C-w>h", opts)
 vim.keymap.set("n", "<C-j>", "<C-w>j", opts)
 vim.keymap.set("n", "<C-k>", "<C-w>k", opts)
